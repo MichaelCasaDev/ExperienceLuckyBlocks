@@ -1,0 +1,8 @@
+name: ${project.name}
+version: ${project.version}
+main: me.michaeldev.galaxylucky.GalaxyLucky
+authors: [MichaelDevC]
+description: ${project.description}
+commands:
+  gl:
+    description: Help command for Galaxy Lucky Blocks

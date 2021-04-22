@@ -1,0 +1,87 @@
+#######################
+# ExperienceLuckyBlocks
+# Developed by: MichaelDevC
+#######################
+
+
+#######################
+# Permissions
+
+# gl.help
+# gl.reload
+# gl.info
+# gl.stats
+# gl.vip
+
+
+#######################
+# Common messages
+
+Reload_Message: "&6[ExperienceLuckyBlocks]&f Plugin config reloaded!"
+ReloadNoPerms: "&6[ExperienceLuckyBlocks]&c You don''t have the permission to reload the plugin!"
+
+HelpNoPermission: "&6[ExperienceLuckyBlocks]&c You don''t have the permission to see the commands -.- !"
+
+
+#######################
+# The Info Message
+
+# Header: <Messagge title>
+# Body: <Info and stats>
+# Footer: <Message end>
+
+InfoHeader: "&6Global stats  - ExperienceLuckyBlocks"
+
+InfoHeaderPlayer: "&6Player stats - ExperienceLuckyBlocks"
+
+InfoBodyGlobalBreak: true
+InfoBodyGlobalTotalTokensGive: true
+InfoBodyGlobalTotalMoneyGive: true
+
+InfoPlayerNotExist: "&6[ExperienceLuckyBlocks]&6 The player specified doesn''t exits..."
+InfoNoPerms: "&6[ExperienceLuckyBlocks]&c You don''t have the permission to do that!"
+
+
+#######################
+#Luckyblocks ID
+
+LuckyBlockID_Normal: "OBSIDIAN"
+LuckyBlockID_Vip: "FURNACE"
+
+
+#######################
+# Rewards [ Normal - Vip ]
+
+Rewards_null: "&6[ExperienceLuckyBlocks]&c You Found nothing in the luckyblock!"
+NoVipLucky: "&6[ExperienceLuckyBlocks]&c YOu can''t break vip lucky blocks ! Buy the vip ;)"
+Rewards_total_Normal: 3
+Rewards_total_Vip: 3
+
+Rewards_Normal:
+  1:
+    enabled: true
+    command: "te add {player} 100"
+    message : "Yey {player} you found some tokens!"
+  2:
+    enabled: false
+    command: "eco give {player} 30000"
+    message : "Yey {player} you found some tokens!"
+  3:
+    enabled: true
+    command: "eco give {player} 400000"
+    message : "Yey {player} you found some moneys!"
+
+
+Rewards_Vip:
+  1:
+    enabled: true
+    command: "te add {player} 100"
+    message : "Yey {player} you found some tokens!"
+  2:
+    enabled: false
+    command: "eco give {player} 30000"
+    message : "Yey {player} you found some tokens!"
+  3:
+    enabled: true
+    command: "eco give {player} 400000"
+    message : "Yey {player} you found some moneys!"
